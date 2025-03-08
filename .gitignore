@@ -1,0 +1,5 @@
+.idea
+/src/Common/.idea/
+/src/Common/KafkaMessages/obj/
+/src/Common/KafkaMessages/bin/
+/src/Common/KafkaMessages/config/
