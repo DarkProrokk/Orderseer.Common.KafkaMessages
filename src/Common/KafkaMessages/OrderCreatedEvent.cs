@@ -1,12 +1,10 @@
 namespace KafkaMessages;
 
-public class OrderCreatedEvent
+public class OrderCreatedForProcessingEvent
 {
-    public Guid UserReference { get; set; }
     public Guid OrderReference { get; set; }
-
     public bool Validate()
     {
-        return UserReference != default && OrderReference != default;
+        return OrderReference != default;
     }
 }
