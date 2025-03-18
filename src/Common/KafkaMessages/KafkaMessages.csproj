@@ -3,10 +3,14 @@
     <PropertyGroup>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Orderseer.Common.KafkaMessages</PackageId>
-        <Version>1.0.4</Version>
+        <Version>1.0.5</Version>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Orderseer.Common.Entities" Version="1.0.0" />
+    </ItemGroup>
 
 </Project>

@@ -1,3 +1,5 @@
+using Entities;
+
 namespace KafkaMessages;
 
 public class OrderStatusChangedEvent
@@ -9,6 +11,6 @@ public class OrderStatusChangedEvent
 
 public class Status
 {
-    public int code { get; set; } 
-    public string name { get; set; }
+    public OrderStatus Code { get; set; } 
+    public string Name { get; set; }
 }
